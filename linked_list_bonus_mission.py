@@ -1,7 +1,7 @@
 #Linked lists bonus mission
 #Data structures and algorithms
 #Mikael Pennanen
-import webbrowser
+
 
 valinnat = {}
 valinnat[1] = "Henkilotiedon lisays"
@@ -151,8 +151,6 @@ def valinnat():
         elif valinta == "0":
             print("Ohjelma lopetettu.")
             break
-        elif valinta == "4":
-            webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1")
 
 
 llist = LinkedList()
